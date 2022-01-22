@@ -11,7 +11,7 @@ Students are required to demonstrate an ability to run the code
 and setup the game environment in addition to change the parameters by experience
 and optimize them to have a better performance and getting more rewards from the
 Car Racing game.
-This is the modified code from the original (https://github.com/Narsil/rl-baselines) and we added the Bayseian optimization to optimize the following parameters:
+This is the modified code from the original (https://github.com/Narsil/rl-baselines) and we added the Bayesian optimization to optimize the following parameters:
 <ul>
   <li>Spectral radius in Echo state network </li>
   <li>The size of the Conv and ESN output weights</li>
@@ -19,4 +19,4 @@ This is the modified code from the original (https://github.com/Narsil/rl-baseli
 </ul>
 
 # Running the code
-The Car_Racing.ipynb file is a colab file to run the code can be uploaded to google colab.
+The Car_Racing.ipynb file is a colab file to run and install all the requirements needed to run this code
