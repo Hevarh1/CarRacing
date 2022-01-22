@@ -254,7 +254,7 @@ if __name__ == "__main__":
     from bayes_opt import BayesianOptimization
 
     # Bounded region of parameter space
-    pbounds = {'units': (100, 600), 'epochs': (1, 1000), 'sp': (0.5, 0.99)}
+    pbounds = {'units': (100, 600), 'epochs': (10, 20), 'sp': (0.5, 0.99)}
 
     optimizer = BayesianOptimization(
         f=opt,
@@ -264,7 +264,7 @@ if __name__ == "__main__":
 
     optimizer.maximize(
         init_points=3,
-        n_iter=100,
+        n_iter=10,
     )
 
     print(optimizer.max)
