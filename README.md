@@ -18,8 +18,9 @@ This is the modified code from the original (https://github.com/Narsil/rl-baseli
   <li>The number of epochs</li>
 </ul>
 
-# Note
-We just modified and added the Bayesian Optimization for the rcrc.py code 
-
 # Running the code
 The Car_Racing.ipynb file is a colab file to run and install all the requirements needed to run this code
+
+
+# Note
+We just modified and added the Bayesian Optimization for the rcrc.py code 
