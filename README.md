@@ -21,6 +21,9 @@ This is the modified code from the original (https://github.com/Narsil/rl-baseli
 # Running the code
 The Car_Racing.ipynb file is a colab file to run and install all the requirements needed to run this code
 
+Below is the youtube video showing how it is done and linking it to the google drive:
+https://youtu.be/76_Z9S5j82g
+
 
 # Note
 We just modified and added the Bayesian Optimization for the rcrc.py code 
